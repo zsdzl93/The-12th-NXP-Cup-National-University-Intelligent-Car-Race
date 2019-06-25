@@ -1,0 +1,10 @@
+void middleLine();
+void ringRecognition();
+void path_scan();
+void obstacleRecognition();
+void cross_scan();
+void loseBoundOnOneSide();
+void middleline_37_36();
+void exceptionHandling();
+void stop();
+void downhill();
