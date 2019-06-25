@@ -83,7 +83,7 @@ void path_scan()
 	oldoutBoundRow=59;
 	smallestColumn=20;
 
-   //Small triangle recognition, used for the judgment of the starting point of the next midline search
+	//Small triangle recognition, used for the judgment of the starting point of the next midline search
 	for(i=59;i>=6;i--)
 	{
 		leftTurn_flag1+=left[i]<=2&&right[i]<30;
