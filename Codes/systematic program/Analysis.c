@@ -111,7 +111,7 @@ void path_scan()
 	//search for outbound row and upper bound.
 	for(j=0;j<=79;j++) // Outbound line detection from 59 column to 0 column
 	{
-		for(i=59;i>=10;i--)        // i=50->10 for direction control£¬i=59->50 for exception handling
+		for(i=59;i>=10;i--)        // i=50->10 for direction controlÂ£Â¬i=59->50 for exception handling
 		{
 			if( img[i*80+j]==0x00)  // Look for the first black dot from the bottom up
 			{
@@ -618,32 +618,3 @@ void downhill()
 //		led( LED2, LED_OFF );
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
