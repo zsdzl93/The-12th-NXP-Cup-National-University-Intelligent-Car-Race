@@ -59,7 +59,6 @@ void middleLine()  //Middle line, road recognition
 	else middleline_start=40;
 }
 
-
 /*////////////////////////////////////////////////////////////////////
         middleline_37_36 function
 Get the position of the center line corresponding to the current control line as the input of the PID
@@ -91,21 +90,21 @@ void path_scan()
 		if(leftTurn_flag1>=1||rightTurn_flag1>=1) break;
 	}
 
-    if(leftTurn_flag1>0)
-    {
+	if(leftTurn_flag1>0)
+	{
 		leftSmallTriangleflag=1;
 		leftTurn_flag1=0;
 		leftTriangleFlag=1;
 		rightTriangleFlag=0;
-    }
+	}
       
-    if(rightTurn_flag1>0)
-    {
+	if(rightTurn_flag1>0)
+	{
 		rightSmallTriangleflag=1;
 		rightTurn_flag1=0;
 		leftTriangleFlag=0;
 		rightTriangleFlag=1;
-    }
+	}
 
 	for(j=0;j<=79;j++) outBoundRecord[j]=0;
     
