@@ -37,7 +37,7 @@ extern Size_t size;			//Image size in display area
 /********************  Angle  ***************************/
 extern float Gyro_Now,angle_offset_vertical;			// The angular velocity after conversion of the gyroscope, the acceleration angle after conversion
 extern float g_fCarAngle,g_fGyroscopeAngleIntegral;		// final angle
-extern volatile int    MMA7361 ,ENC03,real_angle;		// accelerator AD, gyro AD, module output angle
+extern volatile int    MMA7361,ENC03,real_angle;		// accelerator AD, gyro AD, module output angle
 extern volatile int   pre_pre_pre_ENC03,pre_pre_ENC03,pre_ENC03,average_ENC03;
 extern  volatile int Pre_Pre_Pre_MMA7361,Pre_Pre_MMA7361,Pre_MMA7361;
 extern float g_fAngleControlOut;						// Angle control output(output needed for self-balancing)
@@ -57,7 +57,7 @@ extern int AngleSet;
  * self-balancing control parameter
  */
 #define MMA7361_vertical             2028  // 1860// 1760  //1850// 2600
-#define GYRO_SET                     1720  // Gyro median value
+//#define GYRO_SET                     1720  // Gyro initial value. GYRO_SET was replaced by GYRO_VAL
 #define Gyro_ratio                   0.03   //0.04
 #define GRAVITY_ADJUST_TIME_CONSTANT 2
 #define DT                           0.05
