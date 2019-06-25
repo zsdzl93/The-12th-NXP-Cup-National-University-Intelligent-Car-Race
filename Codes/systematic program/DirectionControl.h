@@ -1,0 +1,2 @@
+void DirectionControl();
+void DirectionControlOutput();

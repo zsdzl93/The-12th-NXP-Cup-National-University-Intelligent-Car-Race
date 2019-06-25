@@ -1,0 +1,1 @@
+void  CameraGet(void);
