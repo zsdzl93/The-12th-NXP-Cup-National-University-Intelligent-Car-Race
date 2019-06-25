@@ -331,7 +331,7 @@ void obstacleRecognition()
 
 
 
-/***************** Crossroad recognition ( judge right/left space for ring & crossroad )****************/
+/***************** Crossroad recognition ( judge right/left empty for ring & crossroad )****************/
 void cross_scan()
 {
 	int i,j,L=0,R=79 ,COL=79;
