@@ -136,7 +136,7 @@ int loseLeftBound=0;
 int loseRightBound=0;
 
 //********************(Stop)**************************
-int B2H=0,H2B=0,t=0;      //打开电源后的等待时间
+int B2H=0,H2B=0,t=0;      // Waiting time after turning on the power
 int stopflag=0;
 int stop_obstacleDelay=0;
 int stoptimes=0;
@@ -168,7 +168,7 @@ int DIPswitch_1,DIPswitch_2,DIPswitch_3,DIPswitch_4,DIPswitch_5,DIPswitch_6,DIPs
 int SpeedLevel,Kp3_Level;
 int rampSet=0;
 int yuanhuanchengxu;
-//速度设定
+// Speed set
 int SpeedSet[8]={80,90,100,110,120,130,140,150};
 float Kp3_Set[4]={ 1.0,1.2,1.4,1.6};
                    
