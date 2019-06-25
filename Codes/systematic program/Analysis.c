@@ -109,7 +109,7 @@ void path_scan()
 
 	for(j=0;j<=79;j++) outBoundRecord[j]=0;
     
-    //search for outbound row and upper bound.
+	//search for outbound row and upper bound.
 	for(j=0;j<=79;j++) // Outbound line detection from 59 column to 0 column
 	{
 		for(i=59;i>=10;i--)        // i=50->10 for direction control£¬i=59->50 for exception handling
