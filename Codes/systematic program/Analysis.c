@@ -125,7 +125,7 @@ void path_scan()
 		}
 		oldoutBoundRow=outBoundRow;
 	}
-    now_outBoundRow=outBoundRow;
+	now_outBoundRow=outBoundRow;
 }
 
 
@@ -142,7 +142,7 @@ void loseBoundOnOneSide()
 	if (ringDelay>0) ringDelay--;
 
 	if (ringDelay<=1)
-    {
+	{
 		for(i=outBoundRow;i<=50;i++)
 		{
 			if(left[i]<=2) loseLeftBound++;
@@ -192,7 +192,7 @@ void loseBoundOnOneSide()
 		}
 	}
 	else fillLeftBound=0;
-    }
+	}
 }
 
 
@@ -334,7 +334,7 @@ void obstacleRecognition()
 
 /***************** Crossroad recognition ( judge right/left space for ring & crossroad )****************/
 void cross_scan()
-{   
+{
 	int i,j,L=0,R=79 ,COL=79;
 	// left empty?
 	for(i=50;i>(outBoundRow+10);i--)
