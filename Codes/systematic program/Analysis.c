@@ -15,7 +15,6 @@ void middleLine()  //Middle line, road recognition
 	int i, middleline=middleline_start, j, ROW=59, COL=79;
 	int Left_Black=middleline_start;
 	int Right_Black=middleline_start;
-
 	//Initial drawing midline method non-ring and cross road
 	for(i=ROW;i>=outBoundRow;i--)
 	{
