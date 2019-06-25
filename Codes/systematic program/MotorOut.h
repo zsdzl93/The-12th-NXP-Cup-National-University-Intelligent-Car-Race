@@ -1,2 +1,0 @@
-void MotorOutput();
-void SpeedPWMOutput();
